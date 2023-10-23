@@ -1,0 +1,19 @@
+{
+    "name": "pablo/csv-tojson-converter",
+    "authors": [
+        {
+            "name": "padulibine",
+            "email": "pablo.dulibine@etu.uca.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "faisalman/simple-excel-php": "^0.3.15",
+        "markenwerk/json-pretty-printer": "^1.0"
+    }
+}

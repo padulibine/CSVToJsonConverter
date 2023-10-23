@@ -1,0 +1,8 @@
+category_id;qty;product_ean;product_SKU;stock_label;checksum
+44;4785;9-782940-19961 ;HMNGB201;in stock;az
+1;5578;9-782940-19961 ;HMNGBSW202;in stock;er
+5;247;9-782941-14781 ;TDIGD203;in stock;ty
+666;55;9-782941-47854 ;MTAB204;stock alert;ui
+;0;9-782940-10224 ;MFC205;out of stock;op
+0;48982;9-782940-54785 ;BBVG206;in stock;qs
+478;145;9-782940-01558 ;BBN207;in stock;df

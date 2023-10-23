@@ -1,0 +1,54 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(253, 253, 255);
+}
+
+h1 {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#file-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+#file-box {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #d2d8e6;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 5px;
+}
+
+#title {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#download-button {
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #d8ffd0;
+    color: #1f6e10;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+#download-button:hover {
+    background-color: #f2fff0;
+}

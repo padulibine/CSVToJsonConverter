@@ -1,0 +1,58 @@
+[
+  {
+    "category_id": "44",
+    "qty": "4785",
+    "product_ean": "9-782940-19961 ",
+    "product_SKU": "HMNGB201",
+    "stock_label": "in stock",
+    "checksum": "az"
+  },
+  {
+    "category_id": "1",
+    "qty": "5578",
+    "product_ean": "9-782940-19961 ",
+    "product_SKU": "HMNGBSW202",
+    "stock_label": "in stock",
+    "checksum": "er"
+  },
+  {
+    "category_id": "5",
+    "qty": "247",
+    "product_ean": "9-782941-14781 ",
+    "product_SKU": "TDIGD203",
+    "stock_label": "in stock",
+    "checksum": "ty"
+  },
+  {
+    "category_id": "666",
+    "qty": "55",
+    "product_ean": "9-782941-47854 ",
+    "product_SKU": "MTAB204",
+    "stock_label": "stock alert",
+    "checksum": "ui"
+  },
+  {
+    "category_id": "",
+    "qty": "0",
+    "product_ean": "9-782940-10224 ",
+    "product_SKU": "MFC205",
+    "stock_label": "out of stock",
+    "checksum": "op"
+  },
+  {
+    "category_id": "0",
+    "qty": "48982",
+    "product_ean": "9-782940-54785 ",
+    "product_SKU": "BBVG206",
+    "stock_label": "in stock",
+    "checksum": "qs"
+  },
+  {
+    "category_id": "478",
+    "qty": "145",
+    "product_ean": "9-782940-01558 ",
+    "product_SKU": "BBN207",
+    "stock_label": "in stock",
+    "checksum": "df"
+  }
+]

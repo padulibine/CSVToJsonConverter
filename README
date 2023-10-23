@@ -1,0 +1,31 @@
+Pablo Dulibine
+
+La confection de cette application m’a été demandé lors d’un test d’entrée à Nukium, l’entreprise où j’ai passé mon 2nd stage.
+
+
+    OBJECTIFS de l'application :
+
+- Recuperer les CSV ../fichierCSV/extra.csv et ../fichierCSV/in.csv puis de les convertir en json.
+- Faire un merge des 2 JSON sur un même tableau (avec product_id en clef primaire)
+
+
+    INFORMATIONS :
+
+J'ai developpé l'application en PHP 8.1.5.
+J'ai utilisé l'environnement de developpement Xampp pour qu'il soit utilisable dans un environnement LAMP, WAMP ou MAMP.
+J'ai donc placé mon projet dans le dossier "C:\xampp\htdocs".
+Enfin j'ai lancé le serveur et me suis connecté à https://localhost/CSVtoJsonConverter/index.php.
+Le document "fichierJson" recueille les .json générés, il est possible de les télécharger directement sur l'application.
+
+Pour les tests, mon application utilise la librairie phpunit.
+Pour lancer les tests : dans un terminal, se positionner à la racine du projet puis lancer la commande " ./vendor/bin/phpunit tests "
+
+A l'aide de Composer, j'ai installé des librairies permettant:
+- de convertir les .csv en .json. La partie qui l'utilise est commentée (voir la fonction privée convert() dans \src\Service\ConverterService.php).
+- de formater les .json.
+
+Un template est lié au controller. Le template se trouvant dans \template\mainTemplate.php et son style dans \style\mainTemplate.css.
+Grâce à Composer, l'application possède un autoloader.
+
+
+
